@@ -795,6 +795,11 @@ footer .social-icons i:hover {
     position: relative; /* Required for positioning the close button */
     box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
   }
+  .team-container {
+    display: flex;
+    gap: 30px;
+    flex-wrap: wrap;
+  }
 }
 /* Media query for smaller screens */
 @media screen and (max-width: 768px) {
