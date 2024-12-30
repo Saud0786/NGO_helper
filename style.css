@@ -585,13 +585,13 @@ footer .social-icons i:hover {
 }
 
 #login-modal button {
-  background: #0056b3;
+  background: #007bff;
   color: white;
-  padding: 10px;
   border: none;
+  padding: 10px;
+  width: 40%;
   border-radius: 5px;
   cursor: pointer;
-  width: 70%;
   margin-bottom: 10px;
 }
 
@@ -614,13 +614,13 @@ footer .social-icons i:hover {
 }
 
 #signup-modal .signup-content #sign-up {
-  background: #28a745;
+  background: #23a341;
   color: white;
   padding: 10px;
   border: none;
   border-radius: 5px;
   cursor: pointer;
-  width: 70%;
+  width: 40%;
 }
 
 #signup-modal .signup-content #sign-up:hover {
@@ -727,6 +727,36 @@ footer .social-icons i:hover {
   footer .social-icons {
     flex-direction: column;
   }
+/* /////////////////////////////////////////// */
+  #signup-modal .signup-content {
+    background: white;
+    padding: 40px 1px;
+    border-radius: 10px;
+    width: 300px;
+    text-align: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    position: relative;
+  }
+  #login-modal .modal-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: white;
+    padding: 20px 1px;
+    border-radius: 10px;
+    width: 300px;
+    text-align: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    position: relative;
+  }
+
+  
+  #login-modal .signup-button {
+    width: 40%;
+  }
+  #login-modal button {
+    width: 40%;
+  }
 
   #login-modal .modal-content,
   #signup-modal .signup-content {
@@ -735,24 +765,22 @@ footer .social-icons i:hover {
 
   #login-modal input,
   #signup-modal input {
-    width: 100%;
-    padding: 5px;
+    width: 90%;
+    padding: 10px;
   }
 
-  #login-modal button,
+  /* #login-modal button,
   #signup-modal #sign-up {
     width: 70%;
-  }
+  } */
 
   #login-modal .modal-content .close-button {
-    position: absolute;
-    top: 0;
-    margin-left: -15px;
-    background: transparent;
+    position: relative;
+    bottom: 0;
+    right: -130px;
     border: none;
     font-size: 1.5em;
     cursor: pointer;
-    color: #333;
   }
 
   #signup-modal .signup-content .close-button {
